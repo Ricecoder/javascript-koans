@@ -11,7 +11,7 @@ describe("About Expects", function() {
   it("should expect equality", function () {
     var actual = 1 + 1;
 
-    expect(actual === FILL_ME_IN).to.be.true
+    expect(actual === 1 + 1).to.be.true
   });
 
   // Some ways of asserting equality are better than others.
@@ -19,7 +19,7 @@ describe("About Expects", function() {
     var actual = 1 + 1;
 
     // to.equal() compares using "strict" equality (===)
-    expect(actual).to.equal(FILL_ME_IN);
+    expect(actual).to.equal(1 + 1);
   });
 
   // Sometimes you need to be really exact about what you "type."
