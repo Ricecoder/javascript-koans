@@ -7,7 +7,7 @@ describe("About Arrays", function() {
   it("should create arrays", function() {
     var emptyArray = [];
 
-    expect(typeof(emptyArray)).to.equal(FILL_ME_IN);
+    expect(typeof(emptyArray)).to.equal('object');
     // A mistake? - http://javascript.crockford.com/remedial.html
 
     expect(emptyArray.length).to.equal(FILL_ME_IN);
